@@ -58,7 +58,7 @@ class PriceBasket():
             self.list_products_prices['apples'] = self.list_products_prices['apples'] * 0.9
             message_discount1 = 'Apples 10% off: £0.10, £0.10*{0}=£{1}'.format(self.products_quantities['apples'], round(self.discount_apple,3))
             discount_messages.append(message_discount1)
-            discounts.append(int(self.discount_apple))
+            discounts.append(round(self.discount_apple, 3))
 
         ###Discount for Bread
         if 'soup' in self.products_quantities and self.products_quantities['soup'] >= 2 and 'bread' in self.products_quantities:
@@ -66,7 +66,7 @@ class PriceBasket():
             self.list_products_prices['bread'] = self.list_products_prices['bread'] * 0.5
             message_discount2 = '2 tins of soup, bread price 50% off:, £0.40, £0.40*{0}=£{1}'.format(self.products_quantities['bread'], round(self.discount_bread,3))
             discount_messages.append(message_discount2)
-            discounts.append(int(self.discount_bread))
+            discounts.append(round(self.discount_bread, 3))
 
 
         if len(discount_messages) == 0:
