@@ -8,3 +8,5 @@ Products: Soup, Bread, Milk, Apples
 Current Discounts:   
 ● Apples have a 10% discount off their normal price this week.  
 ● Buy 2 tins of soup and get a loaf of bread for half price
+
+To run script please clone repo to local and run 'python PriceBasket.py' in cmd (do not forget to change location of CMD)
