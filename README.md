@@ -31,17 +31,17 @@ python --version
    Clone the repository to your local machine by running the following command:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/ShamkhalHajiyev/Adthena-Python-Analyst-Coding-Exercise
    ```
 
-   Replace `<repository_url>` with the URL of your GitHub repository.
+   Replace `https://github.com/ShamkhalHajiyev/Adthena-Python-Analyst-Coding-Exercise` with the URL of your GitHub repository.
 
 2. **Navigate to the Project Directory**:
 
    After cloning, navigate to the project directory:
 
    ```bash
-   cd PriceBasket
+   cd Adthena-Python-Analyst-Coding-Exercise/PriceBasket
    ```
 
 3. **Install Python Dependencies (if any)**:
