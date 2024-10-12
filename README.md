@@ -34,7 +34,6 @@ python --version
    git clone https://github.com/ShamkhalHajiyev/Adthena-Python-Analyst-Coding-Exercise
    ```
 
-   Replace `https://github.com/ShamkhalHajiyev/Adthena-Python-Analyst-Coding-Exercise` with the URL of your GitHub repository.
 
 2. **Navigate to the Project Directory**:
 
